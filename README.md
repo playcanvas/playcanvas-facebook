@@ -3,7 +3,10 @@ Plugin component for PlayCanvas which enables integration of the Facebook API.
 
 ## How to use
 
-* Add the file `facebook-setup.js` to the root Entity of your appliction. (Note this plugin must be added to an Entity, not added to Script Priorities).
+* Copy the file from `lib/facebook-setup.js` into your PlayCanvas project by dropping it into the Asset Panel of your project.
+* Add a script component to the root Entity of your project.
+* Add `facebook-setup.js` to the script component
+* Note this plugin must be added to an Entity, not added to Script Priorities.
 * In your application code listen for the application event `fb:init` to find out when the API is ready to use.
 
 e.g.
